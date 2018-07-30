@@ -7,9 +7,9 @@
 <script type="text/ecmascript-6">
   import MusicList from './music-list'
   import {getSongList} from '../api/recommend'
-  // import {ERR_OK} from '../api/config'
+  import {ERR_OK} from '../api/config'
   import {mapGetters} from 'vuex'
-  // import {createSong} from '../common/js/song'
+  import {createSong} from '../common/js/song'
 
   export default {
     computed: {
